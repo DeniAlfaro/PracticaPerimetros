@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="PracticaPerimetros.ControlPerimetroTrapecio"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PracticaPerimetros"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <StackPanel>
+        <TextBlock>Lado 1:</TextBlock>
+        <TextBox Name="txtLadoTrapecio"></TextBox>
+        <TextBlock>Lado 2:</TextBlock>
+        <TextBox Name="txtLadoTrapecio2"></TextBox>
+        <TextBlock>Lados:</TextBlock>
+        <TextBox Name="txtLados"></TextBox>
+    </StackPanel>
+</UserControl>
